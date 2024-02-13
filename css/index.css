@@ -1,0 +1,120 @@
+/* Section de presentation  */
+
+.section-introduce{
+    border: 2px solid #082932;
+    background-color: #082932;
+    padding: 30px;
+}
+
+.section-introduce .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-introduce .col{
+    padding: 5px;
+}
+
+.section-introduce h1{
+    font-size: 3em;
+    color: #0A73B0;
+}
+
+.section-introduce p{
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.section-introduce .btn{
+    border: 2px solid #0A73B0;
+    background-color: #0A73B0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 300ms;
+}
+
+.section-introduce .btn:hover{
+    border-color: #0a496e;
+    background-color: #0a496e;
+}
+
+/* Section de projets */
+
+.section-project h1{
+    text-align: center;
+}
+
+.section-project .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-project .col{
+    padding: 5px;
+}
+
+/* Section de formulaire de projet */
+
+#section-form{
+    border: 2px solid #082932;
+    background-color: #082932;
+    padding: 50px;
+}
+
+#section-form h1{
+    text-align: center;
+    color: #0A73B0;
+}
+
+#section-form .row{
+    display: flex;
+    justify-content: center;
+}
+
+#section-form .col{
+    padding: 5px;
+}
+
+#section-form .form-label{
+    color: #fff;
+}
+
+#section-form .form-input,textarea{
+    outline: none;
+}
+
+#section-form .form-input{
+    width: 500px;
+    padding: 5px;
+}
+
+#section-form .form-input:focus{
+    border: 2px solid #0A73B0;
+}
+
+textarea{
+    width: 1030px;
+}
+
+textarea:focus{
+    border: 2px solid #0A73B0;
+}
+
+#section-form .form-btn{
+    border-color: #0A73B0;
+    background-color: #0A73B0;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#section-form .form-btn:hover{
+    border-color: #0a496e;
+    background-color: #0a496e;
+}

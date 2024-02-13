@@ -1,0 +1,39 @@
+.header{
+    border: 2px solid #0A73B0;
+    background-color: #0A73B0;
+}
+
+.header-title{
+    margin-left: 50px;
+    font-family: Algerian;
+    color: #082932;
+}
+
+.navbar{
+    float: right;
+    margin-top: -90px;
+    margin-right: 50px;
+}
+
+.navbar-nav{
+    display: flex;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    transition: color 300ms;
+}
+
+.nav-link:hover{
+    color: #082932;
+}
+
+.active{
+    color: #082932;
+}
