@@ -1,0 +1,37 @@
+.section-title{
+    border: 2px solid #082932;
+    background-color: #082932;
+}
+
+.section-title h1{
+    font-size: 3em;
+    margin-left: 50px;
+    color: #0A73B0;
+}
+
+.section-landscape h1{
+    text-align: center;
+}
+
+.section-landscape .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-landscape .col{
+    padding: 5px;
+}
+
+
+.section-portrait h1{
+    text-align: center;
+}
+
+.section-portrait .row{
+    display: flex;
+    justify-content: center;
+}
+
+.section-portrait .col{
+    padding: 5px;
+}
